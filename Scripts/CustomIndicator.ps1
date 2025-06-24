@@ -27,7 +27,7 @@ function prompt {
     Write-Host "$promptSymbol " -NoNewline
 
     # Reset color to default for user input
-   # $host.UI.RawUI.ForegroundColor = "White"
+    $host.UI.RawUI.ForegroundColor = "White"
 
     return " "
 }
