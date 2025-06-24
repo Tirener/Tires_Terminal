@@ -23,11 +23,11 @@ function prompt {
     $host.UI.RawUI.ForegroundColor = "Red"
     Write-Host "$pathDisplay " -NoNewline
 
-    $host.UI.RawUI.ForegroundColor = "Black"
+    $host.UI.RawUI.ForegroundColor = "Red"
     Write-Host "$promptSymbol " -NoNewline
 
     # Reset color to default for user input
-    $host.UI.RawUI.ForegroundColor = "White"
+   # $host.UI.RawUI.ForegroundColor = "White"
 
     return " "
 }
