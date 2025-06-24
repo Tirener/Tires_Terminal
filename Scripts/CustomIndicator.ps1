@@ -20,10 +20,10 @@ function prompt {
     $promptSymbol = ">"
 
     # Set colors for parts of the prompt
-    $host.UI.RawUI.ForegroundColor = "Cyan"
+    $host.UI.RawUI.ForegroundColor = "Red"
     Write-Host "$pathDisplay " -NoNewline
 
-    $host.UI.RawUI.ForegroundColor = "Yellow"
+    $host.UI.RawUI.ForegroundColor = "Black"
     Write-Host "$promptSymbol " -NoNewline
 
     # Reset color to default for user input
